@@ -1,0 +1,49 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Muscle gain and strength improvement for weightlifting competition",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan spans exactly 1 day with 4-5 meals distributed throughout",
+      "Protein intake distributed across meals (minimum 25g per meal) supporting muscle recovery",
+      "Pre-workout and post-workout nutrition specified with appropriate timing and macronutrients",
+      "Total daily calories and macros align with strength athlete requirements for muscle gain"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) focusing on protein distribution, muscle recovery, and pre/post-workout nutrition windows"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "75 kg",
+      "goal": "Maintain lean muscle while cutting 2kg for competition weight in boxing",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan totals 1,800-2,000 calories with adequate protein (minimum 120g) for lean muscle maintenance",
+      "Includes 3-4 liters of hydration strategy distributed throughout the day",
+      "Provides 4-5 balanced meals/snacks with carbs timed around training for performance"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport requiring weight management (boxer or swimmer) emphasizing caloric control, hydration balance, and lean muscle maintenance while meeting performance demands"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training with carbohydrate loading and high caloric intake (4500+ calories) with meals timed around a 20km training run",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers exactly 1 day with 4-5 meals/snacks",
+      "Total daily calories meet or exceed 4500 with carbohydrates comprising 60-65% of total intake",
+      "Pre-run meal provided 2-3 hours before training and post-run recovery meal within 30-60 minutes of completion",
+      "Plan is presented in compact, concise format suitable for quick reference"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring maximum caloric intake and carbohydrate loading with specific timing around training sessions"
+  }
+]
