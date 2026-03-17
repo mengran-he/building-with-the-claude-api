@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__ide__executeCode",
+      "Bash(cat '/Users/mengran/Development/claude_projects/building-with-the-claude-api/anthropic_api_fundamentals/001_requests_exercise.ipynb' | python3 -c \"import json,sys; nb=json.load\\(sys.stdin\\); cells=nb['cells']; [print\\(f'Cell {i}:', json.dumps\\(c.get\\('outputs',''\\), indent=2\\)[:2000]\\) for i,c in enumerate\\(cells\\)]\")",
+      "Bash(cat '/Users/mengran/Development/claude_projects/building-with-the-claude-api/anthropic_api_fundamentals/001_requests_exercise.ipynb' | python3 -c \"import json,sys; nb=json.load\\(sys.stdin\\); [print\\(f'Cell {i} \\(id={c[\\\\\"id\\\\\"]}\\):\\\\n{c[\\\\\"source\\\\\"]}\\\\n'\\) for i,c in enumerate\\(nb['cells']\\)]\")",
+      "Bash(cat /Users/mengran/Development/claude_projects/building-with-the-claude-api/anthropic_api_fundamentals/002_system_prompt.ipynb | python3 -c \"import json,sys; nb=json.load\\(sys.stdin\\); [print\\(f'Cell {i}:', json.dumps\\(c.get\\('outputs',''\\), indent=2\\)\\) for i,c in enumerate\\(nb['cells']\\)]\")",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(gh pr:*)"
+    ]
+  }
+}
